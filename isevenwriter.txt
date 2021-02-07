@@ -1,0 +1,16 @@
+spaghetti = open('spaghetti.txt', 'w')
+
+
+def Jesus(r):
+
+    spaghetti.write("def isEven(i): \n")
+
+    for i in range(r):
+        if i % 2 == 0:
+            spaghetti.write("    if i == " + str(i) + ": return True " + "#this checks if the number is even or not\n")
+        else:
+            spaghetti.write("    if i == " + str(i) + ": return False " + "#this checks if the number is even or not\n")
+
+
+Jesus(100000000) # enter the number of isevens you want :)
+spaghetti.close()
