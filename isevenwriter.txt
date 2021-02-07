@@ -1,6 +1,5 @@
 spaghetti = open('spaghetti.txt', 'w')
 
-
 def Jesus(r):
 
     spaghetti.write("def isEven(i): \n")
